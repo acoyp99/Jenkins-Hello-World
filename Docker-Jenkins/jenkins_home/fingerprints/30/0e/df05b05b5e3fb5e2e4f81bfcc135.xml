@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-04-04 04:12:50.593 UTC</timestamp>
+  <md5sum>300edf05b05b5e3fb5e2e4f81bfcc135</md5sum>
+  <fileName>Credential id=acoyp99-git name=acoyp99/****** (Credentials of Git ACOYP99)</fileName>
+  <usages>
+    <entry>
+      <string>DemoCI</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

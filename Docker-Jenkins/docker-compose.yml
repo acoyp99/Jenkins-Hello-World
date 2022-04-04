@@ -2,10 +2,13 @@ version: "3"
  
 services:
   jenkins:
-    container_name: jenkins_demo2
+    container_name: jenkins_demo01
+    privileged: true
+    user: root
     image: "jenkins/jenkins"
     ports:
-      - "9090:8080"
+      - 9090:8080
+      - 60000:50000
     volumes:
       - "$PWD/jenkins_home:/var/jenkins_home"
     networks:

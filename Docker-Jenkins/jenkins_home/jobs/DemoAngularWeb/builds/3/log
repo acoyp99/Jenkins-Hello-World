@@ -1,0 +1,23 @@
+Started by user [8mha:////4G9hccbpfCBAs4WIk17tb6Biz7SPaOjwcj4VF4cQ7vsdAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mADMIN
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/DemoAngularWeb
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/DemoAngularWeb/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/acoyp99/Jenkins-Hello-World # timeout=10
+Fetching upstream changes from https://github.com/acoyp99/Jenkins-Hello-World
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/acoyp99/Jenkins-Hello-World +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 44e266fef0b7f15359d82d416ed6f2af18af81ba (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 44e266fef0b7f15359d82d416ed6f2af18af81ba # timeout=10
+Commit message: "Jenkins in  Docker"
+First time build. Skipping changelog.
+[DemoAngularWeb] $ /bin/sh -xe /tmp/jenkins4389677690497892544.sh
++ mkdir WebApp
+mkdir: cannot create directory ‘WebApp’: File exists
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
